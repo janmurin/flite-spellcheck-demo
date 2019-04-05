@@ -29,7 +29,7 @@ const MAX_EDITORS = 4;
 	const EDITOR_OPTIONS = {
 		width: "100%",
 		height: "20%",
-		extraPlugins: "flite,scayt",
+		extraPlugins: "flite",
 		removePlugins: "registered,pagebreakCmd,pagebreak,indentblock,indent,indentlist,list,pastefromword,flash,showblocks,specialchar,colordialog,div,divarea,templates",
 		toolbarGroups: [
 			{ name: 'document', groups: ['mode', 'document', 'doctools'] },
@@ -365,7 +365,7 @@ const MAX_EDITORS = 4;
 			//Must handle the URL to support either the one that is accessible from internet and the one that is only accessible from NHN
 			//https://webspellchecker.visma.com vs https://webspellchecker.nhn.visma.com
 			CKEDITOR.config.scayt_srcUrl = 'https://webspellchecker.visma.com/spellcheck/lf/scayt3/ckscayt/ckscayt.js?1554481948628';
-			CKEDITOR.config.wsc_customLoaderScript = 'https://webspellchecker.visma.com/spellcheck/lf/22/js/wsc_fck2plugin.js';
+			//CKEDITOR.config.wsc_customLoaderScript = 'https://webspellchecker.visma.com/spellcheck/lf/22/js/wsc_fck2plugin.js';
 
 			//http://wiki.webspellchecker.net/doku.php?id=scayt_parameters_ckeditor4&s[]=encrypted&s[]=customer&s[]=id
 			//config.scayt_customerId = 'your-long-encrypted-customer-id';
