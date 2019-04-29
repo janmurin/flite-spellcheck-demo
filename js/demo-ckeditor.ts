@@ -51,7 +51,8 @@ const MAX_EDITORS = 4;
 		],
 	flite: {
 		// set to false if you want change tracking to be off initially
-			isTracking: true,
+		isVisible: false,
+		isTracking: true,
 			userStyles: {
 				"21": 3,
 				"15": 1,

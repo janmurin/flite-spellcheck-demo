@@ -9,9 +9,6 @@
  * https://github.com/timdown/rangy
  * inspired by work by Matthew DeLambo, The New York Times, CMS Group
  * https://github.com/NYTimes/ice
- * Opentip adapter
- * Copyright (c) 2018, Matias Meno  
- * http://www.opentip.org
  * Mutation summary
  * Copyright (c) 2018 Rafael Weinstein
  * https://github.com/rafaelw/mutation-summary
