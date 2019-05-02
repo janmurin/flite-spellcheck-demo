@@ -219,6 +219,7 @@ const MAX_EDITORS = 4;
 			jQuery(".editor-container").attr("data-num-editors", nEditors);
 
 			let editor: CKEDITOR.editor = CKEDITOR.replace(id, EDITOR_OPTIONS);
+			console.log("isTracking="+EDITOR_OPTIONS.flite.isTracking+" isVisible="+EDITOR_OPTIONS.flite.isVisible);
 
 			if (nEditors >= MAX_EDITORS) {
 				$add.attr({
@@ -255,8 +256,30 @@ const MAX_EDITORS = 4;
 
 			// called each time a new instance of an FLITE tracker is created
 			editor.on(FLITE.Events.INIT, function (event: any) {
+				console.log("editor init: ");
 				var flite = event.data.flite;
-				flite.toggleShow(true);
+
+				console.dir(flite.getChanges({
+					exclude:[],
+					filter:function(item:any){
+						console.log(item);
+						return false;
+					},
+					include:[]
+				}));
+			// @ts-ignore
+				//editor.insertHtml('<meta data-show-changes="true" />');
+				//flite.toggleShow(false); .appendChild(document.createElement('div'))
+				var changesElement = editor.document.getById('show-changes');
+				if(changesElement){
+					console.log("contains show-changes: "+editor.document.getBody().contains(changesElement));
+				}else{
+					console.log("contains show-changes: false");
+				}
+				console.dir("appending show changes: "+editor.document.getBody().appendHtml('<span id="show-changes" data-show-changes="true222"></span>'));
+				changesElement = editor.document.getById('show-changes');
+				console.log("contains show-changes: "+editor.document.getBody().contains(changesElement));
+				console.log("changes element value="+changesElement.getAttribute('data-show-changes'));
 				$(".flite-version").html(flite.version);
 			});
 
