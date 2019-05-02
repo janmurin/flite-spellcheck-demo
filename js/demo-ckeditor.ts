@@ -51,8 +51,7 @@ const MAX_EDITORS = 4;
 		],
 	flite: {
 		// set to false if you want change tracking to be off initially
-		isVisible: false,
-		isTracking: true,
+			isTracking: true,
 			userStyles: {
 				"21": 3,
 				"15": 1,
@@ -116,8 +115,6 @@ const MAX_EDITORS = 4;
 
 			(CKEDITOR as any).timestamp = 0x8999;
 			$(".ckeditor-version").html(CKEDITOR.version);
-
-			this.setSpellChecker();
 
 			// Create users dropdown menu
 			(() => {
@@ -219,7 +216,6 @@ const MAX_EDITORS = 4;
 			jQuery(".editor-container").attr("data-num-editors", nEditors);
 
 			let editor: CKEDITOR.editor = CKEDITOR.replace(id, EDITOR_OPTIONS);
-			console.log("isTracking="+EDITOR_OPTIONS.flite.isTracking+" isVisible="+EDITOR_OPTIONS.flite.isVisible);
 
 			if (nEditors >= MAX_EDITORS) {
 				$add.attr({
@@ -256,30 +252,8 @@ const MAX_EDITORS = 4;
 
 			// called each time a new instance of an FLITE tracker is created
 			editor.on(FLITE.Events.INIT, function (event: any) {
-				console.log("editor init: ");
 				var flite = event.data.flite;
-
-				console.dir(flite.getChanges({
-					exclude:[],
-					filter:function(item:any){
-						console.log(item);
-						return false;
-					},
-					include:[]
-				}));
-			// @ts-ignore
-				//editor.insertHtml('<meta data-show-changes="true" />');
-				//flite.toggleShow(false); .appendChild(document.createElement('div'))
-				var changesElement = editor.document.getById('show-changes');
-				if(changesElement){
-					console.log("contains show-changes: "+editor.document.getBody().contains(changesElement));
-				}else{
-					console.log("contains show-changes: false");
-				}
-				console.dir("appending show changes: "+editor.document.getBody().appendHtml('<span id="show-changes" data-show-changes="true222"></span>'));
-				changesElement = editor.document.getById('show-changes');
-				console.log("contains show-changes: "+editor.document.getBody().contains(changesElement));
-				console.log("changes element value="+changesElement.getAttribute('data-show-changes'));
+				flite.toggleShow(true);
 				$(".flite-version").html(flite.version);
 			});
 
@@ -372,37 +346,6 @@ const MAX_EDITORS = 4;
 
 		private countEditors(): number {
 			return Object.keys(this.editorStates).filter((key: string) => key.indexOf("editor-") === 0).length;
-		}
-
-		public setSpellChecker(): void {
-			const languagesById = {
-				1: "nb_NO",
-				2: "nn_NO",
-				3: "se_NO",
-				4: "en_US"
-			}
-
-			//Spelling-Language. For now always choose norwegian bokmål - later on we must remember what user has selected and choose that one over again. Can't be depended on ui-language!
-			//it seems like within same session (even with a refresh of browser) the selected spelling-language by enduser is always remembered (due to localstorage items for webspellchecker).
-			const spellingLanguage = "nb_NO";
-
-			//Must handle the URL to support either the one that is accessible from internet and the one that is only accessible from NHN
-			//https://webspellchecker.visma.com vs https://webspellchecker.nhn.visma.com
-			CKEDITOR.config.scayt_srcUrl = 'https://webspellchecker.visma.com/spellcheck/lf/scayt3/ckscayt/ckscayt.js?1554481948628';
-			//CKEDITOR.config.wsc_customLoaderScript = 'https://webspellchecker.visma.com/spellcheck/lf/22/js/wsc_fck2plugin.js';
-
-			//http://wiki.webspellchecker.net/doku.php?id=scayt_parameters_ckeditor4&s[]=encrypted&s[]=customer&s[]=id
-			//config.scayt_customerId = 'your-long-encrypted-customer-id';
-			CKEDITOR.config.scayt_autoStartup = false;
-			CKEDITOR.config.scayt_ignoreAllCapsWords = true;
-			CKEDITOR.config.scayt_ignoreDomainNames = true;
-
-			CKEDITOR.config.scayt_sLang = spellingLanguage;
-			CKEDITOR.config.wsc_lang = spellingLanguage;
-
-			//we can't save customer dictonaries yet - so remove 'add' by stating to only show ignore
-			CKEDITOR.config.scayt_contextCommands = 'ignore';
-			//config.scayt_userDictionaryName = 'MyDictionary'; // Hmm - what to add here?  "PPT-PROD-<ORGID>-<EmployeeID>" ??
 		}
 	}
 
