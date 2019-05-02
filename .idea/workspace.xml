@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ccf68a9-556f-49f7-9c3e-28a4bb05177e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/demo-ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/demo-ckeditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/demo-ckeditor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/demo-ckeditor.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/demo-ckeditor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/js/demo-ckeditor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckeditor/plugins/font/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/ckeditor/plugins/font/plugin.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -100,11 +96,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ckeditor/plugins/save/plugin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ckeditor/plugins/font/plugin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="164" selection-start-line="164" selection-end-line="173" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -135,6 +140,7 @@
       <find>CKEDITOR.resourceManager.add</find>
       <find>&quot;save&quot;</find>
       <find>CKEDITOR.plugins.add(&quot;s</find>
+      <find>CKEDITOR.plugins.add(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,6 +157,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/ckeditor/plugins/base64image/plugin.js" />
         <option value="$PROJECT_DIR$/ckeditor/plugins/save/plugin.js" />
+        <option value="$PROJECT_DIR$/ckeditor/plugins/font/plugin.js" />
       </list>
     </option>
   </component>
@@ -245,12 +252,12 @@
       <updated>1554483253041</updated>
       <workItem from="1554483254159" duration="2282000" />
       <workItem from="1556524790610" duration="23503000" />
-      <workItem from="1556780210724" duration="7908000" />
+      <workItem from="1556780210724" duration="8214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34454000" />
+    <option name="totallyTimeSpent" value="34760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -2417,8 +2424,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ckeditor/plugins/save/plugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ckeditor/plugins/font/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="164" selection-start-line="164" selection-end-line="173" selection-end-column="14" />
         </state>
       </provider>
     </entry>

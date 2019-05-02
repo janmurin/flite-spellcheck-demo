@@ -162,16 +162,16 @@
         }
     });
 
-    CKEDITOR.plugins.add('save',
-        {
-            init: function (editor) {
-                editor.addCommand('save', {
-                    modes: { wysiwyg: 1, source: 1 },
-                    exec: function () { }
-                });
-                editor.ui.addButton('Save', { label: '', command: 'save' });
-            }
-        });
+    // CKEDITOR.plugins.add('save',
+    //     {
+    //         init: function (editor) {
+    //             editor.addCommand('save', {
+    //                 modes: { wysiwyg: 1, source: 1 },
+    //                 exec: function () { }
+    //             });
+    //             editor.ui.addButton('Save', { label: '', command: 'save' });
+    //         }
+    //     });
 
 
 })();
