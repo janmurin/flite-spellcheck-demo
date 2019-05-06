@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ccf68a9-556f-49f7-9c3e-28a4bb05177e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ckeditor/plugins/font/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/ckeditor/plugins/font/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/flite-spellcheck-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/demo-ckeditor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/js/demo-ckeditor.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/demo-ckeditor.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="184" column="61" selection-start-line="184" selection-start-column="61" selection-end-line="184" selection-end-column="61" />
+            <state relative-caret-position="663">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -39,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="459">
+              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -48,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ckeditor/plugins/flite/plugin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="103" column="271266" selection-start-line="103" selection-start-column="271266" selection-end-line="103" selection-end-column="271266" />
+            <state relative-caret-position="1751">
+              <caret line="103" column="3" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -78,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ckeditor/ckeditor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="159" lean-forward="true" selection-start-line="43" selection-start-column="159" selection-end-line="43" selection-end-column="159" />
+            <state relative-caret-position="680">
+              <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -90,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="265" column="60" lean-forward="true" selection-start-line="265" selection-start-column="60" selection-end-line="265" selection-end-column="60" />
+            <state relative-caret-position="4505">
+              <caret line="265" column="60" selection-start-line="265" selection-start-column="60" selection-end-line="265" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -105,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ckeditor/plugins/font/plugin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="164" selection-start-line="164" selection-end-line="173" selection-end-column="14" />
+            <state relative-caret-position="470">
+              <caret line="174" selection-start-line="174" selection-end-line="174" />
             </state>
           </provider>
         </entry>
@@ -152,12 +156,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/js/demo-ckeditor.js" />
         <option value="$PROJECT_DIR$/tmp.html" />
-        <option value="$PROJECT_DIR$/js/demo-ckeditor.ts" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/ckeditor/plugins/base64image/plugin.js" />
         <option value="$PROJECT_DIR$/ckeditor/plugins/save/plugin.js" />
         <option value="$PROJECT_DIR$/ckeditor/plugins/font/plugin.js" />
+        <option value="$PROJECT_DIR$/js/demo-ckeditor.ts" />
       </list>
     </option>
   </component>
@@ -184,12 +188,6 @@
               <item name="flite-spellcheck-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="flite-spellcheck-demo" type="462c0819:PsiDirectoryNode" />
               <item name="ckeditor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flite-spellcheck-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flite-spellcheck-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ckeditor" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flite-spellcheck-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -253,17 +251,18 @@
       <workItem from="1554483254159" duration="2282000" />
       <workItem from="1556524790610" duration="23503000" />
       <workItem from="1556780210724" duration="8214000" />
+      <workItem from="1557133928950" duration="1121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34760000" />
+    <option name="totallyTimeSpent" value="35881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19863014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19863014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -293,13 +292,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/ckeditor/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19465">
-          <caret line="1150" column="8" selection-start-line="1150" selection-start-column="8" selection-end-line="1150" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/demo-ckeditor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -2364,30 +2356,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/ckeditor/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19465">
+          <caret line="1150" column="8" selection-start-line="1150" selection-start-column="8" selection-end-line="1150" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ckeditor/plugins/flite/plugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="103" column="271266" selection-start-line="103" selection-start-column="271266" selection-end-line="103" selection-end-column="271266" />
+        <state relative-caret-position="1751">
+          <caret line="103" column="3" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/demo-ckeditor.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="184" column="61" selection-start-line="184" selection-start-column="61" selection-end-line="184" selection-end-column="61" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -2407,8 +2389,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ckeditor/ckeditor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="159" lean-forward="true" selection-start-line="43" selection-start-column="159" selection-end-line="43" selection-end-column="159" />
+        <state relative-caret-position="680">
+          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -2417,8 +2399,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="265" column="60" lean-forward="true" selection-start-line="265" selection-start-column="60" selection-end-line="265" selection-end-column="60" />
+        <state relative-caret-position="4505">
+          <caret line="265" column="60" selection-start-line="265" selection-start-column="60" selection-end-line="265" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -2431,8 +2413,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ckeditor/plugins/font/plugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="164" selection-start-line="164" selection-end-line="173" selection-end-column="14" />
+        <state relative-caret-position="470">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demo-ckeditor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
